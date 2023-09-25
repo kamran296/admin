@@ -1,0 +1,60 @@
+.topbar{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+.logo{
+    cursor: pointer;
+    color:black;
+}
+.logo:hover{
+    color:blue
+}
+.topbarright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+.topbarIconsContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.topIconBadge{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    background-color: rgb(247, 25, 25);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(249, 249, 249);
+    height: 15px;
+    width: 15px;
+}
+.profileicon{
+    height:40px ;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
